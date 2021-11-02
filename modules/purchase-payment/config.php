@@ -59,7 +59,8 @@ return [
                 ],
                 'status' => [
                     'type' => 'enum',
-                    'enum' => 'purchase-payment.status'
+                    'enum' => 'purchase-payment.status',
+                    'vtype' => 'int'
                 ],
                 'fee' => [
                     'type' => 'number',
@@ -80,5 +81,8 @@ return [
                 ]
             ]
         ]
+    ],
+    'purchasePayment' => [
+        'handlers' => []
     ]
 ];
